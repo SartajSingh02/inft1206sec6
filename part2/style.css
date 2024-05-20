@@ -123,6 +123,17 @@ aside {
   padding: 1%;
 }
 
+div {
+  display: flex;
+  width: 100%;
+}
+
+header div h1 {
+   flex: 4;
+}
+
+
+
 aside a {
   display: block;
   float: left;
