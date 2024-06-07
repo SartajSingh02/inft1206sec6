@@ -1,3 +1,9 @@
+<!-- Name: Sartaj Singh -->
+<!-- Date: 27 May 2024 -->
+<!-- Modified: 27 May 2024 -->
+<!-- Description: Nasa Planet Data -->
+<!-- Assignment 2: Part  -->
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -8,12 +14,17 @@
   </head>
   <body>
     <h1>Planet Data</h1>
-    <table border="1">
+    <table>
       <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+      <colgroup>
+        <col span = "2">
+        <col span = "9">
+        <col span = "border: 2px">
+      </colgroup>
         <thead>
-          
-          <tr>   
-           <th>Name</th>
+          <tr>
+            <td colspan="2"></td>
+            <th scope="col"></thscope>Name</th>
             <th>Mass (10<sup>24</sup>kg)</th>
             <th>Diameter (km)</th>
             <th>Density (kg/m<sup>3</sup>)</th>
@@ -27,6 +38,7 @@
         </thead>
         <tbody>
           <tr>
+            <th rowspan = "4" colspan="2" scope="rowgroup">Terrestrial planets</th>
             <th>Mercury</th>   
             <th>0.330</th>
             <th>4,879</th>
@@ -38,13 +50,47 @@
             <th>0</th>
             <th>Closest to the Sun</th>
           </tr>
+          <tr>
+            <th>Venus</th>   
+            <th>4.87</th>
+            <th>12,104 </th>
+            <th>5243</th>
+            <th>8.9</th>
+            <th>2802.0</th>
+            <th>108.2</th>
+            <th>464</th>
+            <th>0</th>
+            <th></th>
+          </tr>
+
+        <tr>
+          <th>Earth</th>   
+            <th>5.97</th>
+            <th>12756</th>
+            <th>5514</th>
+            <th>9.8</th>
+            <th>24.0</th>
+            <th>149.6</th>
+            <th>15</th>
+            <th>1</th>
+            <th>Our world</th>
+        </tr>
+        <tr>
+          <th>Mars</th>   
+            <th>0.642</th>
+            <th>6792</th>
+            <th>3933</th>
+            <th></th>
+            <th>24.0</th>
+            <th>149.6</th>
+            <th>15</th>
+            <th>1</th>
+            <th>The red planet</th>
+        </tr>
+
         </tbody>
     </table>
-    Rows
-
-    Terrestrial planets
     
-    Mercury 0.330 4,879 5427 3.7 4222.6 57.9 167 0 Closest to the Sun
     Venus 4.87 12,104 5243 8.9 2802.0 108.2 464 0
     Earth 5.97 12,756 5514 9.8 24.0 149.6 15 1 Our world
     Mars 0.642 6,792 3933 3.7 24.7 227.9 -65 2 The red planet
