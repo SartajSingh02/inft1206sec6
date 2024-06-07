@@ -127,15 +127,24 @@
       </article>
 
       <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
+        <!-- Insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="firefox_logo-only_RGB.png" alt=" firefox logo">
+            <img srcset="firefox_logo-only_RGB 400.png 400w, firefox_logo-only_RGB 120.png 120w"
+                 sizes="120px, 400px"
+                 src="firefox_logo-only_RGB.png" 
+                 alt="firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="mozilla-dinosaur-head.png" alt="mozilla-dinosaur-head">
+            <img srcset="mozilla-dinosaur-head 400.png 400w, mozilla-dinosaur-head 120.png 120w"
+                 sizes="120px, 400px"
+                 src="mozilla-dinosaur-head.png" 
+                 alt="mozilla-dinosaur-head">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="firefox-addons.jpg" alt="addons">
+            <img srcset="firefox-addons 400.jpg 400w, firefox-addons 120.jpg 120w"
+                 sizes="120px, 400px"
+                 src="firefox-addons.jpg" 
+                 alt="addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
           <img src="mdn.svg" alt="mdn">
@@ -145,9 +154,11 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
-        <img src="red-panda.jpg" alt="red panda">
+        <img srcset="red-panda_potrait 600.jpg 600w, red-panda 600.jpg, red-panda 1200.jpg"
+             sizes="600px, 1200px"
+             src="red-panda.jpg" 
+             alt="red-panda">
       </div>
-
     </main>
   </body>
 </html>
