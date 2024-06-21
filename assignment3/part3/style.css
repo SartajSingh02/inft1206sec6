@@ -47,20 +47,21 @@
   /* Font face links */
 
   @font-face {
-    font-family: 'Lora';
-    src:url('font/Lora\,Montserrat.zip.ttf') format('woff2'),
-        url('font/Lora\,Montserrat.zip.ttf') format('woff');
-        font-weight: normal;
-        font-style: normal;
+    font-family: 'abeezeeregular';
+    src: url('font/ABeeZee.zip.ttf') format('woff2'),
+         url('font/ABeeZee.zip.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
-
+  
   @font-face {
-    font-family: 'Merriweather';
-    src:url('font/Lora\,Montserrat.zip.ttf') format('woff2'),
-        url('font/Lora\,Montserrat.zip.ttf') format('woff');
-        font-weight: normal;
-        font-style: normal;
+    font-family: 'afta_serifregular';
+    src: url('font/Playwrite_AU_NSW.zip.ttf') format('woff2'),
+         url('font/Playwrite_AU_NSW.zip.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
+ 
   /* typography stuff */
   
   html {
