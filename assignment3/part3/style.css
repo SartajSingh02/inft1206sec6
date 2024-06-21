@@ -47,17 +47,17 @@
   /* Font face links */
 
   @font-face {
-    font-family: 'abeezeeregular';
-    src: url('font/ABeeZee.zip.ttf') format('woff2'),
-         url('font/ABeeZee.zip.ttf') format('woff');
+    font-family: 'Roboto';
+    src: url('font/Roboto_Slab.zip.ttf') format('woff2'),
+         url('font/Roboto_Slab.zip.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'afta_serifregular';
-    src: url('font/Playwrite_AU_NSW.zip.ttf') format('woff2'),
-         url('font/Playwrite_AU_NSW.zip.ttf') format('woff');
+    font-family: 'EB_Garamond';
+    src: url('font/EB_Garamond.zip.ttf') format('woff2'),
+         url('font/EB_Garamond.zip.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
   }
@@ -65,12 +65,12 @@
   /* typography stuff */
   
   html {
-    font-family: 'Lora', 'Merriweather',serif;
+    font-family: 'Roboto',serif;
     font-size: 10px;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Josefin Slab','Slabo_27',sans-serif;
+    font-family: 'EB_Garamond',sans-serif;
     letter-spacing: 2px;
   }
   
