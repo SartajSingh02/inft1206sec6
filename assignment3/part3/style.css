@@ -43,15 +43,33 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */  
+
+  /* Font face links */
+
+  @font-face {
+    font-family: 'Lora';
+    src:url('font/Lora\,Montserrat.zip.ttf') format('woff2'),
+        url('font/Lora\,Montserrat.zip.ttf') format('woff');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Merriweather';
+    src:url('font/Lora\,Montserrat.zip.ttf') format('woff2'),
+        url('font/Lora\,Montserrat.zip.ttf') format('woff');
+        font-weight: normal;
+        font-style: normal;
+  }
   /* typography stuff */
   
   html {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Lora', 'Merriweather',serif;
     font-size: 10px;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Josefin Slab','Slabo_27',sans-serif;
     letter-spacing: 2px;
   }
   
